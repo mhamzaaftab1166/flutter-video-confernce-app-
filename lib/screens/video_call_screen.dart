@@ -43,7 +43,7 @@ class _VideoCallScreenState extends State<VideoCallScreen> {
     // Define meetings options here
     var options = JitsiMeetingOptions(
       roomNameOrUrl: roomText.text,
-      serverUrl: "https://meet.engagemedia.org",
+      serverUrl: "https://meet.ur.de",
       subject: subjectText.text,
       isAudioMuted: isAudioMuted,
       isVideoMuted: isVideoMuted,
@@ -103,7 +103,7 @@ class _VideoCallScreenState extends State<VideoCallScreen> {
         onClosed: () => debugPrint("onClosed"),
       ),
     );
-User? user = FirebaseAuth.instance.currentUser;
+    User? user = FirebaseAuth.instance.currentUser;
     // Store the details in Firestore
     await FirebaseFirestore.instance.collection('meetings').add({
       'roomName': roomText.text,

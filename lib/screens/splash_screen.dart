@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:myp/screens/login_screen.dart';
+import 'package:myp/screens/MainScreen.dart';
 
 void main() {
   runApp(const MyApp());

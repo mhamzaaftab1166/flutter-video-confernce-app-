@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:myp/resources/auth_methods.dart';
 import 'package:myp/screens/history_meeting_screen.dart';
 import 'package:myp/screens/home_screen.dart';
-import 'package:myp/screens/login_screen.dart';
+import 'package:myp/screens/MainScreen.dart';
 import 'package:myp/screens/meeting_screen.dart';
 import 'package:myp/screens/video_call_screen.dart';
 import 'package:myp/utils/colors.dart';

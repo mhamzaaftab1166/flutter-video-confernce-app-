@@ -26,7 +26,7 @@ class _MeetingScreenState extends State<MeetingScreen> {
         // Join the meeting as a host
         var options = JitsiMeetingOptions(
           roomNameOrUrl: roomName,
-          serverUrl: "https://meet.engagemedia.org",
+          serverUrl: "https://meet.ur.de",
           isAudioMuted: false,
           isVideoMuted: false,
           userDisplayName: "Host User",
